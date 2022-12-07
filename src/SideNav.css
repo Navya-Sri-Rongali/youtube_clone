@@ -1,0 +1,27 @@
+.side_nav{
+    display:flex;
+     flex-direction: column; 
+     border-right: 2px solid lightgray;
+     height: 100vh;
+     flex:0.15; 
+    overflow-y: scroll;
+    
+}
+.icons{
+    display:flex;
+    font-size: 20px !important;
+    padding: 10px;
+    
+}
+
+.icons>span{
+    padding-left: 10px;
+}
+.icons:hover{
+    background-color: gray;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.icons:hover{
+    color: red ;
+}

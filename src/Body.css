@@ -1,0 +1,9 @@
+.body_content{
+    display: flex;
+    flex:0.85;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow-y: scroll;
+    justify-content: space-between;
+    padding: 20px;
+}

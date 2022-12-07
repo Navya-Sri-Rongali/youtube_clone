@@ -1,0 +1,43 @@
+.header{
+    display:flex;
+    /* position: sticky; */
+    justify-content:space-between;
+    align-items: center;
+    border:1px solid lightgray;
+    position: sticky;
+    top:0;
+    background-color: white;
+    
+}
+.middle{
+    display: flex;
+    border-radius:20px;
+    border: 2px solid lightgrey;
+    align-items: center;
+}
+.youtube{
+    width:110px;
+}
+.bar{
+    padding-left: 10px;
+    border-radius:20px;
+    width:500px;
+    height:30px;
+    border: none;
+    outline: 0;
+    font-size: 15px;
+}
+.last_icons{
+    display:flex;
+    flex:0.2;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Search{
+    padding-right: 10px;
+}
+.Mic:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+}
